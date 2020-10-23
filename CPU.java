@@ -2,12 +2,12 @@ package com;
 
 public class CPU {
 	private int speed;
-	private String A;
+	private String Size;
 	public int getSpeed() {
   		return speed;
 	}
- 	public Sting getA() {
-		return A;
+ 	public Sting getSize() {
+		return Size;
 	}
 	
 	public int getSpeed() {
@@ -16,8 +16,8 @@ public class CPU {
 	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
-	public void setA(String A) {
- 		this.A = A;
+	public void setSize(String Size) {
+ 		this.Size = Size;
 }
 
 }
