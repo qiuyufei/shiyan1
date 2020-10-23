@@ -14,7 +14,9 @@ public class PC {
 	void show() {
 		// TODO Auto-generated method stub
 		System.out.println("CPU Speed:"+cpu.getSpeed());
+		System.out.println("CPU Size:"+cpu.getSize());
 		System.out.println("Hard Disk:"+disk.getAmount());
+		System.out.println("Hard A:"+disk.getA());
 	}
 
 }
